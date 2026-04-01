@@ -43,19 +43,14 @@
                         <div class="col-xl-4 col-lg-5 col-sm-6" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500" data-aos-offset="0">
                             <div class="footer-widget footer-links">
                                 <div class="footer-title">
-                                    <h5>popular food</h5>
+                                    <h5>quick links</h5>
                                 </div>
                                 <ul class="two-column">
-                                    <li><a href="{{ route('productDetails') }}">Hamburger</a></li>
-                                    <li><a href="{{ route('productDetails') }}">French fries</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Chicken pizza</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Onion rings</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Vegetable roll</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Chicken nuggets</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Sea fish</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Tacos Pizza</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Fried chicken</a></li>
-                                    <li><a href="{{ route('productDetails') }}">Hot Dogs</a></li>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('menuPizza') }}">Our Menu</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
